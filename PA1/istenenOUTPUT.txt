@@ -1,0 +1,154 @@
+
+--------------------------------------------------------------
+*** Drop tables ***
+Dropped 5 tables.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Create tables ***
+Created 5 tables.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into MenuItems ***
+10 menu items are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into Ingredients ***
+27 ingredients are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into Includes ***
+64 includes rows are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into Ratings ***
+22 ratings are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into DietaryCategories ***
+96 dietary category rows are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List all menu items that include a given ingredient ***
+ItemID	Name	Cuisine	Price
+101	Veggie Noodles	Chinese	64
+105	Shrimp Fried Rice	Chinese	59
+107	Bell Pepper Dolma	Turkish	49
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List menu items that do not have any ingredients in the database ***
+ItemID	Name	Cuisine	Price
+109	Pad Thai	Thai	64
+110	Tiramisu	Italian	44
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find ingredients that have not been included in any menu items ***
+ingredientID	Name
+1027	sugar
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find the menu item that includes the biggest count of ingredients ***
+ItemID	Name	Cuisine	Price
+107	Bell Pepper Dolma	Turkish	49
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List the average rating of each menu item ***
+ItemID	Name	Average Rating
+108	Mushroom Stew	5.0000
+104	Pasta Napoletana	4.6667
+107	Bell Pepper Dolma	4.3333
+102	Lemon Pasta	4.2500
+103	Fresh Quinoa Salad	4.0000
+106	Oven-baked Salmon	4.0000
+101	Veggie Noodles	3.5000
+105	Shrimp Fried Rice	2.0000
+109	Pad Thai	null
+110	Tiramisu	null
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List menu items suitable to a given dietary category ***
+ItemID	Name	Cuisine	Price
+101	Veggie Noodles	Chinese	64
+102	Lemon Pasta	Italian	59
+103	Fresh Quinoa Salad	World	39
+104	Pasta Napoletana	Italian	54
+107	Bell Pepper Dolma	Turkish	49
+108	Mushroom Stew	World	54
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find the most used ingredient across all menu items ***
+ingredientID	Name
+1001	salt
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List the cuisines with the average rating of menu items belonging to that cuisine ***
+Cuisine	Average Rating
+Italian	4.4286
+Turkish	4.3333
+World	4.2857
+Chinese	3.2000
+Thai	null
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List the cuisines with average ingredient count of menu items for each cuisine ***
+Cuisine	Average Ingredient Count Per Item
+Turkish	10.0000
+World	8.6667
+Chinese	6.0000
+Italian	5.3333
+Thai	0.0000
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Increase the price of all menu items that include a given ingredient by a given amount ***
+3 rows are changed.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Delete all ratings that have an earlier rating date than the given date ***
+RatingID	ItemID	Rating	Rating Date
+3001	101	4	2022-07-24
+3002	102	4	2022-06-29
+3006	104	4	2022-06-15
+3007	105	2	2022-07-14
+3009	108	5	2022-09-10
+3015	102	5	2022-06-10
+3016	102	4	2022-07-07
+3018	102	4	2022-06-01
+3019	103	5	2022-08-30
+3020	104	5	2022-07-10
+3021	106	4	2022-09-10
+3022	106	4	2022-08-10
+
+--------------------------------------------------------------
